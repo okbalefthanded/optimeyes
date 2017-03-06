@@ -8,7 +8,8 @@
 # Copyright:   (c) lukea_000 2013
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-import sys, pygame
+import sys
+import pygame
 from pygame.locals import *
 
 pygame.init()
@@ -16,16 +17,17 @@ size = width, height = 1700, 700
 white = 255, 255, 255
 screen = pygame.display.set_mode(size)
 
+
 class Crosshair(object):
     def __init__(self, speed = [1, 1], quadratic = True):
         self.quadratic = quadratic
         self.speed = speed
         self.cross = pygame.image.load('gaussianBlur.png')#pygame.image.load('bmpcrosshair.bmp')
         self.crossrect = self.cross.get_rect()
-##        print self.crossrect.center, "is the center"
-##        print self.crossrect, "is the rect"
-##        print self.crossrect.top, "is the top"
-##        print self.crossrect.left, "is the left"
+#         print self.crossrect.center, "is the center"
+#         print self.crossrect, "is the rect"
+#         print self.crossrect.top, "is the top"
+#         print self.crossrect.left, "is the left"
         self.result = []
         self.delay = 20
         self.userWantsToQuit = False

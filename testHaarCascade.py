@@ -4,7 +4,7 @@ Basic test of our ability to do a Haar Cascade
 """
 
 import cv2
-haarFaceCascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
+haarFaceCascade = cv2.CascadeClassifier('optimeyes/haarcascades/haarcascade_frontalface_default.xml')
 
 WINDOW_NAME = "preview"
 

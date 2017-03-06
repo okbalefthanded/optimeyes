@@ -17,6 +17,7 @@ UPPER = 1000
 UP_STEP = 1
 DOWN_STEP = -1
 
+
 class ClassyVirtualReferencePoint(object):
     class mykeypoint(object):
         def __init__(self, vector = (0,0), guess = (0, 0), found = 0, weight = 0):

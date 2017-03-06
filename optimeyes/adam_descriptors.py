@@ -6,7 +6,7 @@
 #
 # Created:     15/11/2013
 # Copyright:   (c) lukea_000 2013
-0# Licence:     <your licence>
+# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 import cv2
 import numpy
